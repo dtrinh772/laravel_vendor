@@ -1,0 +1,157 @@
+.sidebar {
+    margin: 0 0 30px;
+}
+
+.sidebar-item:not(:last-child) {
+    margin: 0 0 30px;
+}
+
+.sidebar-menu {
+    width: 100%;
+    float: left;
+    display: block;
+}
+.sidebar-item {
+    width: 100%;
+    float: left;
+}
+
+.sidebar-item .module-header {
+    margin: 0 0 15px;
+}
+
+.module-title a, .module-title>span {
+    width: 100%;
+    float: left;
+    font-weight: 700;
+    position: relative;
+    color: #2f2f2f;
+    padding: 10px 10px 10px 20px;
+    -webkit-transition: color linear 300ms;
+    -moz-transition: color linear 300ms;
+    -ms-transition: color linear 300ms;
+    -o-transition: color linear 300ms;
+    transition: color linear 300ms;
+    font-size: 1.07143em;
+}
+
+.title-head a {
+    color: #2f2f2f;
+}
+
+.module-title span {
+    float: left;
+    padding: 0;
+    position: relative;
+}
+
+.sidebar-item .module-content {
+    width: 100%;
+    float: left;
+    padding: 0;
+}
+
+.sidebar-linklists {
+    width: 100%;
+    float: left;
+}
+
+.sidebar-linklists ul {
+    width: 100%;
+    float: left;
+    margin-bottom: 0;
+}
+
+.sidebar-item ul {
+    padding: 0;
+}
+
+.sidebar-linklists ul li {
+    width: 100%;
+    float: left;
+    display: block;
+    position: relative;
+}
+
+.sidebar-linklists ul li.active>a {
+    color: #fbbf22;
+}
+.sidebar-item .module-content a {
+    font-size: 1em;
+    color: #2f2f2f;
+    -webkit-transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    transition: all ease 0.3s;
+}
+.sidebar-linklists ul li a {
+    display: block;
+    padding: 5px 30px 5px 0;
+    position: relative;
+}
+
+.sidebar-linklists ul li.sidebar-menu-list>a:before {
+    content: "";
+    font-size: .57143em;
+    display: inline-block;
+    font-family: FontAwesome;
+    position: absolute;
+    left: 0;
+    line-height: 21px;
+}
+
+.sidebar-item .module-content a:before {
+    color: #ff3945;
+}
+
+.sidebar-linklists ul li em {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 30px;
+    text-align: center;
+    padding: 11.5px 0;
+    font-size: .71429em;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.sidebar-linklists ul {
+    width: 100%;
+    float: left;
+    margin-bottom: 0;
+}
+
+.sidebar-item ul {
+    padding: 0;
+}
+
+.sidebar-linklists ul li {
+    width: 100%;
+    float: left;
+    display: block;
+    position: relative;
+}
+
+.sidebar-linklists ul li a.a_lv2 {
+    padding: 5px 30px 5px 15px;
+}
+
+
+/*  MEDIA  */
+
+@media (min-width: 992px)
+{
+    .module-title a, .module-title>span {
+        text-transform: uppercase;
+    }
+}

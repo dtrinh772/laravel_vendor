@@ -1,0 +1,121 @@
+/* Header */
+@media (min-width: 768px){
+    .topbar .top_right .search_bar {
+        width: calc(100% - 200px);
+        border-left: #ebebeb 1px solid;
+        border-right: #ebebeb 1px solid;
+    }
+
+    .topbar .top_right .search_bar input {
+        padding-right: 75px;
+    }
+
+
+    .mainbar .item-mainbar {
+        height: 130px;
+    }
+
+    /* section1 */
+
+    .section_slider {
+        padding: 0 0 30px;
+    }
+
+    .section_slider .owl-dots {
+        bottom: 10px;
+    }
+
+    .dots-enable .owl-dots .owl-dot.active {
+        border: #ff3945 1px solid !important;
+        background: transparent !important;
+    }
+
+    .dots-enable .owl-dots .owl-dot {
+        width: 30px !important;
+        height: 30px !important;
+        border: transparent 1px dotted !important;
+        -webkit-border-radius: 0 !important;
+        border-radius: 0 !important;
+    }
+
+    .dots-enable .owl-dots .owl-dot.active span {
+        background: #ff3945 !important;
+    }
+
+    .dots-enable .owl-dots .owl-dot span {
+        width: 20px !important;
+        height: 20px !important;
+        margin: 4px !important;
+        background: #ebebeb !important;
+        -webkit-border-radius: 0 !important;
+        border-radius: 0 !important;
+    }
+    /* section1 */
+
+    /* section2 */
+
+    .section_hotdeal {
+        padding: 30px 0;
+    }
+
+    .dots-enable .owl-dots .owl-dot.active {
+        border: #ff3945 1px solid !important;
+        background: transparent !important;
+    }
+
+    .dots-enable .owl-dots .owl-dot {
+        width: 30px !important;
+        height: 30px !important;
+        border: transparent 1px dotted !important;
+        -webkit-border-radius: 0 !important;
+        border-radius: 0 !important;
+    }
+
+    .dots-enable .owl-dots .owl-dot.active span {
+        background: #ff3945 !important;
+    }
+    /* section 2*/
+
+    /* section3 */
+
+    .section_privacy {
+        padding: 30px 0;
+    }
+    /* section3 */
+
+    /* section5 */
+
+    .section_collection_products {
+        padding: 30px 0;
+    }
+    /* section5 */
+
+
+    /* section9 */
+
+    .section_pro{
+        padding : 30px 0px;
+    }
+    /* section9 */
+
+    /* section 10 */
+
+    .section_brands {
+        padding: 30px 0;
+    }
+    /* section 10 */
+
+    /* footer */
+
+    footer .copyright {
+        line-height: 40px;
+    }
+    /* footer */
+}
+
+
+@media (min-width: 543px){
+    .section_hotdeal .hotdeal-item .product-action .btn {
+        width: 200px;
+    }
+}

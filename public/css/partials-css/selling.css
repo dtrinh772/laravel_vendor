@@ -1,0 +1,176 @@
+.collection-template {
+    width: 100%;
+    float: left;
+    padding: 30px 0 0;
+}
+
+.product-name a {
+    color: #2f2f2f;
+    text-decoration: none;
+}
+
+.collection-title:not(.current_tags) {
+    text-transform: uppercase;
+}
+
+.collection-title {
+    float: left;
+    margin: 0 0 15px;
+}
+
+.collection_description {
+    margin: 0 0 15px;
+}
+
+.collection_description p:last-child {
+    margin: 0;
+}
+
+.category-products {
+    width: 100%;
+    float: left;
+}
+
+.module-header {
+    width: 100%;
+    float: left;
+}
+
+.sortPagiBar {
+    width: 100%;
+    float: left;
+    background: #ebebeb;
+}
+
+.sortPagiBar #sort-by {
+    float: left;
+    padding: 5px 10px;
+}
+
+#sort-by {
+    float: right;
+    font-size: 12px;
+    text-align: left;
+}
+
+.sortPagiBar #sort-by .border_sort {
+    border: #ebebeb 1px solid;
+    width: 100%;
+    float: left;
+}
+
+.sortPagiBar #sort-by select {
+    width: 100%;
+    float: left;
+    height: 32px;
+    border: transparent 1px solid !important;
+    padding: 0 15px;
+}
+
+.product-name {
+    width: 100%;
+    float: left;
+    font-size: 1em;
+    color: #2f2f2f;
+    margin: 0 0 10px;
+}
+
+.a-center {
+    text-align: center !important;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-color: #fff !important;
+    padding-right: 28px;
+    text-indent: 0.01px;
+    text-overflow: '';
+    cursor: pointer;
+}
+
+.module-content {
+    width: 100%;
+    float: left;
+    padding: 15px 0;
+}
+
+.products-view-grid {
+    width: 100%;
+    float: left;
+}
+
+.category-products .product-box {
+    margin-bottom: 30px;
+}
+.product-box {
+    width: 100%;
+    float: left;
+    text-align: left;
+    position: relative;
+    overflow: hidden;
+    background: #fff;
+}
+
+.product-box .product-thumbnail>a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+
+
+/* MEDIA */
+@media (min-width: 768px){
+    .collection-title:not(.current_tags) {
+        font-size: 1.78571em;
+    }
+
+    .sortPagiBar {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: end;
+        -ms-flex-pack: end;
+        justify-content: flex-end;
+    }
+
+    .sortPagiBar #sort-by {
+        width: 200px;
+        position: relative;
+    }
+
+    .sortPagiBar #sort-by:before {
+        position: absolute;
+        content: "Sắp xếp";
+        left: -50px;
+        font-size: 1em;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
+
+
+@media (min-width: 1200px)
+{
+    .category-products .col-item:nth-child(4n+1) {
+        clear: left;
+    }
+
+    .category-products .product-box .product-thumbnail>a {
+        height: 189.38px;
+    }
+}
